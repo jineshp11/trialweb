@@ -1,0 +1,273 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+ 
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0; }
+
+  
+  .container, .row-container, .row-container-lg {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  
+  .row-container--spread {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  
+  .col-4, .footer-tile {
+    width: 247.5px;
+    padding: 0 10px; }
+    .col-4:first-child, .footer-tile:first-child {
+      padding-left: 15px; }
+    .col-4:last-child, .footer-tile:last-child {
+      padding-right: 15px; }
+  
+  .col-2, .slider-screen, .slider-text {
+    max-width: 495px;
+    padding: 0 15px; }
+  
+  
+  .button, .search-input__submit, .tile__button, .newsletter-input__submit {
+    font-family: Georgia, serif;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px;
+    box-sizing: border-box; }
+  
+  .full-width-line {
+    color: #999999;
+    margin: 25px 0; }
+    .full-width-line--shorter {
+      max-width: 960px;
+      margin: 25px auto; }
+  
+  body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    border-top: 5px solid #3bafbe; }
+          
+   
+    .logoimage {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-top: 10px;
+  
+  }
+  
+  .navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    object-position: 70%;
+    padding-top: 25px; }
+    .navbar__menu-item {
+      padding: 0 10px;
+      text-transform: uppercase;
+      font-size: 0.8em; }
+      .navbar__menu-item a {
+        color: #999999; }
+  
+  .slider-screen {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative; }
+    .slider-screen__screen {
+      z-index: 1; 
+      visibility: visible;
+      width: 100%;
+      opacity: 1;}
+  
+  .slider-text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative; }
+    .slider-text__button {
+      background-color: #3bafbe;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 100;
+      letter-spacing: 1px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .slider-text__button small {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+        padding-left: 5px; }
+    .slider-text__header {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 2.6em;
+      margin-top: 70px;
+      color: #4a4a4a; }
+    .slider-text__paragraph {
+      font-size: 1em;
+      margin: 40px 0;
+      color: #313131; }
+  
+  .indicators {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .indicators__item {
+      height: 15px;
+      width: 15px;
+      margin-left: 5px;
+      padding: 0;
+      background-color: #3bafbe;
+      border: 2px solid #3bafbe;
+      border-radius: 100%;
+      cursor: pointer; }
+  
+  .tile__image {
+    width: 100%;
+    margin: 0 auto;
+    display: block; }
+  
+  .tile__header {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 25px 0; }
+  
+  .tile__paragraph {
+    color: #464646;
+    font-size: 0.75em;
+    margin: 25px 0; }
+  
+  .tile__button {
+    background-color: #3bafbe;
+    text-transform: uppercase;
+    font-size: 0.8em; }
+    .tile__button small {
+      padding-left: 5px;
+      vertical-align: top; }
+  
+  .blockqoute {
+    max-width: 800px;
+    padding: 25px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 100;
+    color: #3a3a3a;
+    text-align: center; }
+  
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  
+  .feature {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .feature__image {
+      width: 88px;
+      height: 88px;
+      padding: 3px;
+      border: 1px solid #d8d8d8; }
+    .feature__text {
+      box-sizing: border-box;
+      padding-left: 15px;
+      max-width: 212px; }
+      .feature__text h4 {
+        margin: 5px 0;
+        color: #3bafbe;
+        font-weight: 100;
+        font-size: 1.1em; }
+      .feature__text p {
+        margin: 5px 0;
+        color: #414141;
+        font-weight: 100;
+        font-size: 1em; }
+  
+  .footer-section {
+    background: #252525;
+    margin-top: 30px;
+    padding-bottom: 45px; }
+  
+  .footer-tile {
+    color: white;
+    padding-top: 20px;
+    font-size: 0.75em; }
+    .footer-tile__header {
+      font-weight: normal; }
+    .footer-tile__sub-header {
+      color: #999999;
+      margin-bottom: 0;
+      font-size: 0.8em; }
+    .footer-tile__author {
+      margin-top: 3px;
+      font-size: 0.95em;
+      color: #999999; }
+    .footer-tile__text {
+      color: #999999; }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #999999; }
+    .footer-list__list-item a {
+      color: #3bafbe; }
+    .footer-list__list-item--underlined {
+      border-bottom: 1px solid #333333;
+      padding: 10px 0; }
+  
+  .newsletter-input__text-field {
+    background-color: #333333;
+    color: #999999;
+    font-size: 1.1em;
+    width: 225px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px; }
+  
+  .newsletter-input__submit {
+    background-color: #3bafbe;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0 20px;
+    display: block; }
+  
+  footer {
+    background: #1a1a1a; }
+  
+  .footer-element {
+    text-align: center;
+    padding: 5px 15px;
+    color: #999999;
+    font-size: 0.75em; }
